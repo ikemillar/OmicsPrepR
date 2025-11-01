@@ -1,0 +1,21 @@
+Package: OmicsPrepR
+Title: Unified Preprocessing Toolkit for Proteomics and Metabolomics
+Version: 0.1.0
+Authors@R: c(person("Isaac", "Osei", email = "ikemillar65@gmail.com", role = c("aut", "cre")), person("Dennis", "Opoku Boadu", role = "aut"), person("Chettupally", "Anil Carie", role = "aut"))
+Maintainer: Isaac Osei <ikemillar65@gmail.com>
+Description: An integrated R package providing unified workflows for quality control, normalization, 
+    and visualization of proteomic and metabolomic data. The package simplifies preprocessing through 
+    automated imputation, scaling, and PCA-based exploratory analysis, enabling researchers to prepare 
+    omics datasets efficiently for downstream statistical and machine learning analyses.
+License: GPL-3
+Encoding: UTF-8
+Imports:
+    ggplot2,
+    stats,
+    utils
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
